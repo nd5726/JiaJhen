@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead,  
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	box-sizing:border-box;
+	font-weight: 300;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	-webkit-text-size-adjust: 100%;
+	font-weight: 300;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table[align="center"] {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+	box-sizing:border-box;
+}
+section{
+	box-sizing:border-box;
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	font-weight: 300;
+}
+
+
+a{
+	text-decoration:none;
+	outline: none;
+}
+
+strong{
+	font-weight: 700 !important;
+}
+
+strong,b{
+	font-weight: bold;
+}
+
+strong span{
+	font-weight: 700 !important;
+}
+
+
+button{
+	background:none;
+	border:0;
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	cursor:pointer;
+	box-sizing:border-box;
+	outline: none;
+}
+
+input,select,textarea{
+	font-family: 'Noto Sans TC', '微軟正黑體';
+}
+
+
+
+.textcontent ul{
+	list-style: disc;
+	list-style-position: outside;
+	margin-left: 40px;
+}
+.textcontent ol{
+	list-style: decimal;
+	list-style-position: outside;
+	margin-left: 40px;
+}
+
+
+/* 
+html {
+    overflow: visible;
+}
+
+body {
+    overflow: hidden;
+}
+解決 ie7 overflow 失效的bug */
+
+/*------------------clear_link_line-----------------*/
+
+/*-----------------------clearfix----------------------*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+
+
+
+/* Hides from IE-mac \*/
+
+* html .clearfix{ height:1%;}
+.clearfix{display:block;}/* End hide from IE-mac */
+ 
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */ /*高級做法，一樣在父層引用，不改變html 結構*/
+
+
