@@ -76,10 +76,13 @@
     font-size: 0.9em;
     letter-spacing: 0.08em;
     font-weight: 500;
-    line-height: 2; }
+    line-height: 2;
+    color: #000; }
     .intro__text span {
       font-weight: 300;
       margin-left: 15px; }
+    .intro__text a {
+      color: #000; }
   @media (max-width: 640px) {
     .intro {
       padding-left: 50px; }

@@ -97,9 +97,13 @@
 		letter-spacing: 0.08em;
 		font-weight: 500;
 		line-height: 2;
+		color:#000;
 		span{
 			font-weight: 300;
 			margin-left: 15px;
+		}
+		a{
+			color:#000;
 		}
 	}
 	@media(max-width: 640px){
